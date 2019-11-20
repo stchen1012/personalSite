@@ -1,8 +1,3 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -27,8 +22,9 @@
 		});
 
 	// Nav.
-		var $nav_a = $nav.find('a');
+		var $nav_a = $nav.find('.scrollplz');
 
+		$nav_a
 		$nav_a
 			.addClass('scrolly')
 			.on('click', function(e) {

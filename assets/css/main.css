@@ -2248,7 +2248,9 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/IMG_3826.jpg")
+				background-image: linear-gradient(rgba(38, 50, 56, 0.5), rgba(38, 50, 56, 0.3)), url(../../images/IMG_3826.jpg)
+				/* background-image: url("../../images/IMG_3826.jpg") */
+				/* background-image: url("../../images/codephoto.jpg") */
 			}
 
 			#main > section.two {
